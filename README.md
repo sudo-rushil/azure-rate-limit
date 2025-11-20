@@ -7,7 +7,7 @@
 
 ## How to Reproduce
 
-1. Clone this repo [(link here)]().
+1. Clone this repo [(link here)](https://github.com/sudo-rushil/azure-rate-limit/tree/main).
 2. Insert Azure Foundry keys:
 ```bash
 $ cat .env.example 
