@@ -1,0 +1,65 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+Starting run: 2025-11-20T09:28:12.713Z
+
+=== OUTGOING REQUEST ===
+URL: [AZURE_ENDPOINT]
+Method: POST
+Request Headers: {
+  "anthropic-version": "2023-06-01",
+  "content-type": "application/json",
+  "user-agent": "ai-sdk/anthropic/2.0.45 ai-sdk/provider-utils/3.0.17 runtime/node.js/25",
+  "x-api-key": [AZURE_API_KEY]
+}
+Timestamp: 2025-11-20T09:28:12.732Z
+
+=== INCOMING RESPONSE ===
+Status: 200 OK
+Response Headers:
+  apim-request-id: 3db873e8-391d-412b-9df4-ae1830f576e0
+  azureai-processed-tier: default
+  azureai-requested-tier: default
+  azureml-served-by-cluster: hyena-swedencentral-02
+  content-type: text/event-stream; charset=utf-8
+  date: Thu, 20 Nov 2025 09:28:16 GMT
+  request-context: appId=
+  strict-transport-security: max-age=31536000; includeSubDomains; preload
+  transfer-encoding: chunked
+  x-content-type-options: nosniff
+  x-ms-region: Sweden Central
+  x-ratelimit-limit-tokens: -1
+  x-ratelimit-remaining-tokens: -1
+  x-ratelimit-reset-tokens: 0
+Timestamp: 2025-11-20T09:28:17.003Z
+Rate limit approaching, waiting 10 seconds { runId: 'f37e1c20-ff3d-48ec-b8d6-26b022690172' }
+
+=== OUTGOING REQUEST ===
+URL: [AZURE_ENDPOINT]
+Method: POST
+Request Headers: {
+  "anthropic-version": "2023-06-01",
+  "content-type": "application/json",
+  "user-agent": "ai-sdk/anthropic/2.0.45 ai-sdk/provider-utils/3.0.17 runtime/node.js/25",
+  "x-api-key": [AZURE_API_KEY]
+}
+Timestamp: 2025-11-20T09:28:18.801Z
+
+=== INCOMING RESPONSE ===
+Status: 200 OK
+Response Headers:
+  apim-request-id: 783d9363-c946-48cc-8055-f25cd3ce8d4b
+  azureai-processed-tier: default
+  azureai-requested-tier: default
+  azureml-served-by-cluster: hyena-swedencentral-02
+  content-type: text/event-stream; charset=utf-8
+  date: Thu, 20 Nov 2025 09:28:21 GMT
+  request-context: appId=
+  strict-transport-security: max-age=31536000; includeSubDomains; preload
+  transfer-encoding: chunked
+  x-content-type-options: nosniff
+  x-ms-region: Sweden Central
+  x-ratelimit-limit-tokens: -1
+  x-ratelimit-remaining-tokens: -1
+  x-ratelimit-reset-tokens: 0
+Timestamp: 2025-11-20T09:28:22.116Z
+
+Finishing run: 2025-11-20T09:28:28.830Z
