@@ -38,7 +38,7 @@ In Mastra, in `packages/core/src/llm/model/model.loop.ts:266,272`, there is the 
             }
 
 ```
-This code seems to assume that this header will always be set to a nonnegative value, which clearly isn't true. I propose we cahnge the conditional to
+This code seems to assume that this header will always be set to a nonnegative value, which clearly isn't true. I propose we change the conditional to
 ```typescript
             if (props?.response?.headers?.['x-ratelimit-remaining-tokens'])
               const ratelimitRemainingTokens = parseInt(props?.response?.headers?.['x-ratelimit-remaining-tokens'], 10);
